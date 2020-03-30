@@ -31,6 +31,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -56,6 +57,32 @@ function App() {
         </Container>
 
       </header>
+
+
+      <section> 
+        <Row>
+            <Col xs={12} md={6}>1 of 4</Col>
+            <Col xs={12} md={6}>2 of 4</Col>
+            <Col xs={12} md={6}>3 of 4</Col>
+            <Col xs={12} md={6}>4 of 4</Col>
+          </Row>
+
+        <div class="row">
+            <div class="col-xs-12">
+              Name of Section<br/>
+              dsaddjdija dsdssa d
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+            </div>
+            <div class="col-xs-6">
+            </div>
+        </div>
+        <div class="row">
+        </div>  
+      </section>
+
     </div>
   );
 }
