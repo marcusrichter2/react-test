@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './scss/app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Col, Row, Container, Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
@@ -8,7 +9,7 @@ import { Col, Row, Container, Navbar, Nav, NavDropdown, Form, Button, FormContro
 function App() {
   return (
     <div className="App">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className="top-fixed">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
