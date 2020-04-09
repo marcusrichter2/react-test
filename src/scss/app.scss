@@ -1,3 +1,24 @@
+@import "colors";
+
+body {
+    background-color: $background-color;
+    padding-top: 130px;
+}
+
+nav {
+    color: $quinary-color !important;
+    background-color: $secondary-color;
+    height: 100px;
+    
+    &.navbar-brand {
+        color: $primary-color;
+    }    
+}
+
+section {
+    color: $text-color;    
+}
+
 .top-fixed {
     position: fixed !important;    
     top: 0;    
@@ -7,8 +28,26 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
 
 .text-montserrat {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
+}
+
+.link {
+    font-family: 'Trocchi', serif;
+    font-size: 0.9em;
+    color: #444;
+
+    &::before {
+        color: '#0000cc';
+        content: "→";
+        margin-right: 10px;
+    }    
+
+    &:hover {
+        text-decoration: none;
+        color: red;
+    }
 }
