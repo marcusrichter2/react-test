@@ -28,11 +28,10 @@ const useStyles = makeStyles({
     },
     dropDownExpanded: {
         '&> div': {
-            opacity: '.5',          
-            animationName: 'fadeInDropdown',
-            animationIterationCount : '1',
+            opacity: '1',          
+            animationName: '$fadeInDropdown',            
             animationTimingFunction : 'ease-in',
-            animationDuration : '2s',
+            animationDuration : '.5s',
         }
     },
     '@keyframes fadeInDropdown': {
